@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=EggStop
+comment1.params=args
+comment1.target=void\ MAIN(java.lang.String[])
+comment2.params=
+comment2.target=void\ TopSign()
+comment3.params=
+comment3.target=void\ BottomSign()
+comment4.params=
+comment4.target=void\ PlusMinus()
+comment5.params=
+comment5.target=void\ Space()
+comment6.params=
+comment6.target=void\ Stop()
+comment7.params=
+comment7.target=void\ LongPlusMinus()
+numComments=8

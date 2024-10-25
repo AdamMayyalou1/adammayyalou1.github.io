@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=StarFigures
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ draw2HL()
+comment3.params=
+comment3.target=void\ drawX()
+comment4.params=
+comment4.target=void\ drawDoubleSpace()
+comment5.params=
+comment5.target=void\ draw1VL()
+numComments=6
