@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PrintChar2
+comment1.params=s\ t
+comment1.target=PrintChar2(java.lang.String,\ int)
+comment2.params=
+comment2.target=void\ run()
+numComments=3

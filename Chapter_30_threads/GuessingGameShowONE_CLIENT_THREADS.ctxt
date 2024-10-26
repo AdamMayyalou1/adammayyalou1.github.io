@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=GuessingGameShowONE_CLIENT_THREADS
+comment0.text=\r\n\ GuessingGameShowONE_CLIENT\:\ GuessingGameShow_Player's\ (3)\ are\ trying\ to\ guess\ a\ number\ 1-max,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ see\ who\ is\ the\ fastest\ at\ getting\ it\ right.\ \ With\ each\ guess,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ player\ hits\ a\ delay/sleep\ for\ a\ random\ amount\ of\ time.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ Directions\:\ Create\ the\ following\r\n\ \ \ \ \ \ \ \ \ \ -\ 3\ random\ numbers\ ranging\ from\ 1\ -\ max\ (10000000)\r\n\ \ \ \ \ \ \ \ \ \ -\ 3\ Runnables\ GuessingGameShow_PlayerThread("P1",n1,max)\ //\ For\ P2\ +\ P3\ too\r\n\ \ \ \ \ \ \ \ \ \ -\ 3\ Threads\ for\ each\ and\ start()\ them\ \ \r\n\ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ OUTPUT\:\ \ Possible\ output\ located\ at\ bottom\ of\ program\:\r\n
+comment1.params=
+comment1.target=void\ main()
+numComments=2

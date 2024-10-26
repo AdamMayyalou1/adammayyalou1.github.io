@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=TaskThreadDemo
+comment0.text=\r\n\ \ Sample\ OUPUT\:\r\nRuntime.getRuntime().availableProcessors();\ \=\ 4\r\nba\ 1b\ 2aba\ 3ab\ 4ab\ 5\ 6baa\ 7bba\ 8b\ 9a\ 10\r\nRuntime.getRuntime().availableProcessors();\ \=\ 4\r\nab\ 1ab\ 2b\ 3ab\ 4ab\ 5ab\ 6aa\ 7bba\ 8ba\ 9\ 10\r\nRuntime.getRuntime().availableProcessors();\ \=\ 4\r\nb\ 1aba\ 2b\ 3aab\ 4ab\ 5a\ 6ba\ 7ba\ 8bba\ 9\ 10\r\n\ \r\n
+comment1.params=
+comment1.target=void\ main()
+numComments=2

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=GuessingGameShow_PlayerThread_withBank
+comment0.text=\r\n\ GuessingGameShow_PlayerThread_withBank\:\r\n\ \ Has\ all\ the\ same\ fields\ as\ GuessingGameShow_PlayerThread\ as\ well\ as\:\r\n\ \ (1)\ Has\ 2\ ints\ 'playersBank'\ and\ 'playersBet'\ and\ static\ Bank\ (see\ below)\ object\ named\ 'bigBank'\r\n\ \ \ \ \ \ constructed\ with\ 100\ (dollars).\ \ It\ is\ static\ because\ no\ one\ player\ owns\ it.\ \ Instead\ ALL\ of\ the\ \r\n\ \ \ \ \ \ \ players\ need\ to\ see\ it.\r\n\ \ (2)\ Is\ constructed\ the\ same\ as\ GuessingGameShow_PlayerThread\ and\ is\ passed\ player's\ startingBank.\r\n\ \ (3)\ Has\ the\ get()\ methods\:\ getName(),\ getGuessNumber(),\ getGuessCount(),\ getActualNumber(),\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ getPlayersBet(),\ &\ getPlayersBank()\r\n\ \ (4)\ Has\ 2\ other\ methods\:\ addToPlayersBank(int)\ and\ subtractFromPlayersBank(int)\r\n\ \ (5)\ The\ 'run()'\ has\ the\ addition\ of\ gameplay\ via\ the\ bigBank\ and\ the\ playersBet\:\r\n\ \ \ \ \ \ \ \ \ -\ The\ playersBet\ \=\ random\ number\ 1-100,\ turned\ into\ a\ decimal,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ and\ then\ taken\ as\ a\ percentage\ of\ the\ playersBank.\ \r\n\ \ \ \ \ \ \ \ \ \ \ Ex.\ \ \ r\ \=\ 30\ \ \ \ 30/100\ \=\ 0.30\ \ \ \ So\ playersBet\ \=\ 0.30*playersBank\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ See\ Bank\ class\ below\ for\ its\ part.\ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ NOTE\:\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (1)\ if\ playersBet\=0\ OR\ playersBank\=1\ then\ playersBet\ \=\ 1\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (2)\ if\ bigBank.getBankBalance()\=\=0\ then\ GameOver\ for\ all,\ stop\ all\ threads,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ print\ out\ which\ threads\ were\ still\ running\ via\ a\ threadSet\:\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Set<Thread>\ threadSet\ \=\ Thread.getAllStackTraces().keySet();\r\n\r\n\ \ \ \ \ \ \ \ \ -\ Calls\ the\ shared\ bigBank's\ bet\ method\ passing\ in\ the\ object\ itself.\ \ \ \r\n
+comment1.params=thatName\ thatNum\ thatHigh
+comment1.target=GuessingGameShow_PlayerThread_withBank(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=int\ getActualNumber()
+comment4.params=
+comment4.target=int\ getGuessNumber()
+comment5.params=
+comment5.target=int\ getGuessCount()
+comment6.params=
+comment6.target=void\ run()
+numComments=7

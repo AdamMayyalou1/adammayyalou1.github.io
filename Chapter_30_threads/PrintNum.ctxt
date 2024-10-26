@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=PrintNum
+comment1.params=i
+comment1.target=PrintNum(int)
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\r\n\ \ \ \ //\ Pg\ 1103\ Sec\ 30.4\:\ Thread.sleep()\r\n\ \ \ \ public\ void\ run()\ {\r\n\ \ \ \ \ \ \ \ try\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ for\ (int\ i\ \=\ 1;\ i\ <\=\ lastNum;\ i++)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ System.out.print("\ "\ +\ i);\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if\ (i\ >\=\ 5)\ Thread.sleep(1500);\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ catch\ (InterruptedException\ ex)\ {\r\n\ \ \ \ \ \ \ \ }\r\n}
+numComments=3

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=GuessingGameShow_PlayerThread
+comment0.text=\r\n\ GuessingGameShow_PlayerThread\:\ A\ GameShowPlayer\ keeps\ guessing\ for\ a\ number,\ 1-max,\ with\ higher\ or\ lower,\ it\ adjusts\ accordingly,\r\n\r\n\ It\ must\ do\ the\ following\:\r\n\ (1)'implements'\ the\ Runnable\ Interface\ \ \r\n\ (2)\ Has\ each\ of\ the\ following\ fields\:\ \ \ \r\n\ \ \ \ \ \ 1\ String\ for\ the\ name\r\n\ \ \ \ \ \ 3\ ints\ for\ the\ actualNumber,\ guessNumber,\ and\ guessCount\r\n\ \ \ \ \ \ 2\ ints\ for\ low\ +\ high\ \r\n\ (3)\ Has\ a\ constructor\ to\ assign\ each\ of\ the\ fields\ above.\r\n\ (4)\ run()\:\r\n\ \ \ \ \ \ *\ Have\ a\ loop\ 'while\ (guessNumber\!\=actualNumber)'\ that\ keeps\ trying\ to\ guess\ the\ actualNumber\ via\ a\ binary\ guess\ approach.\ \ \r\n\ \ \ \ \ \ *\ Output\:\ \ \r\n\ \ \ \ \ \ \ \ \ \ -\ name,\ guessNumber,\ guessCount,\ and\ clue\ (too\ LOW,\ too\ HIGH),\ and\ the\ thread\ itself\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ (5)\ Finally,\ when\ it\ gets\ it\ right,\ Output\ the\ final\ guessCount\ and\ the\ actualNumber\r\n
+comment1.params=thatName\ thatNum\ thatHigh
+comment1.target=GuessingGameShow_PlayerThread(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=int\ getActualNumber()
+comment4.params=
+comment4.target=int\ getGuessNumber()
+comment5.params=
+comment5.target=int\ getGuessCount()
+comment6.params=
+comment6.target=void\ run()
+numComments=7
