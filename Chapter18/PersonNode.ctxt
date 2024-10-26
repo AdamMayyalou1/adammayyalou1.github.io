@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=PersonNode
+comment1.params=
+comment1.target=PersonNode()
+comment2.params=l\ f\ m\ i
+comment2.target=PersonNode(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getFN()
+comment4.params=
+comment4.target=java.lang.String\ getLN()
+comment5.params=
+comment5.target=java.lang.String\ getMN()
+comment6.params=
+comment6.target=java.lang.String\ getID()
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8

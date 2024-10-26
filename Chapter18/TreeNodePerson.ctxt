@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=TreeNodePerson
+comment1.params=n
+comment1.target=TreeNodePerson(PersonNode)
+comment2.params=n\ left\ right
+comment2.target=TreeNodePerson(PersonNode,\ TreeNodePerson,\ TreeNodePerson)
+comment3.params=
+comment3.target=TreeNodePerson()
+comment4.params=
+comment4.target=TreeNodePerson\ getLeft()
+comment5.params=
+comment5.target=TreeNodePerson\ getRight()
+comment6.params=
+comment6.target=PersonNode\ getPerson()
+comment7.params=n
+comment7.target=void\ setperson(PersonNode)
+comment8.params=n
+comment8.target=void\ setLeft(TreeNodePerson)
+comment9.params=n
+comment9.target=void\ setRight(TreeNodePerson)
+numComments=10

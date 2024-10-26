@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Chapter18_Exercises_MAIN_1_to_15_SHELL
+comment1.params=
+comment1.target=void\ main()
+comment2.params=a
+comment2.target=void\ descending(int[])
+comment3.params=pq\ k
+comment3.target=int\ kthSmallest(java.util.PriorityQueue,\ int)
+comment4.params=pq
+comment4.target=boolean\ isConsecutive(java.util.PriorityQueue)
+comment5.params=pq
+comment5.target=void\ removeDuplicates(java.util.PriorityQueue)
+comment6.params=pq
+comment6.target=void\ stutter(java.util.PriorityQueue)
+numComments=7
