@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Square
+comment1.params=
+comment1.target=Square()
+comment2.params=base
+comment2.target=Square(double)
+comment3.params=
+comment3.target=java.lang.String\ getMyType()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

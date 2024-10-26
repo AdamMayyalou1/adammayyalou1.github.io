@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Rhombus
+comment1.params=
+comment1.target=Rhombus()
+comment2.params=base\ height
+comment2.target=Rhombus(double,\ double)
+comment3.params=
+comment3.target=java.lang.String\ getMyType()
+comment4.params=
+comment4.target=void\ calculateArea()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6
