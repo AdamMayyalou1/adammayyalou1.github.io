@@ -1,0 +1,1 @@
+LightEmAll is a game where a board is randomly generated with power lines and a power supply. Click on tiles to rotate their pieces and figure out how to power every single line!
